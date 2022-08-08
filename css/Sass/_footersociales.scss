@@ -1,0 +1,26 @@
+footer{
+    .redes-sociales{
+        background: #1e2b38;
+        padding: 60px 0;
+        .contenedor{
+            display: flex;
+            justify-content: center;
+        }
+        a{
+            color: #fff;
+            text-align: center;
+            width: 100px;
+            display: block;
+            padding: 15px 0;
+            border-radius: 3px;
+            font-size: 30px;
+            margin: 0 20px;
+        }
+        .twitter{&:hover{background: #00acee;}}
+        .facebook{&:hover{background: #3b5998;}}
+        .instagram{&:hover{background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,
+        #dc2743 50%,#cc2366 75%,#bc1888 100%);}}
+        .youtube{&:hover{background: #c4302b;}}
+        .twitch{&:hover{background: #6441a5;}}
+    }    
+}
